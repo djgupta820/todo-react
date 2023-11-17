@@ -1,34 +1,34 @@
 {
-    "users": [
-        {
-            "id": "johndoe123",
-            "password": "johndoe123"
-        },
-        {
-            "id": "testuser123",
-            "password": "testuser123"
-        }
-    ],
-    "todos":[
-        {
-            "id": 1,
-            "user": "johndoe123",
-            "title": "Meeting with team"
-        },
-        {
-            "id": 2,
-            "user": "testuser123",
-            "title": "testing todo"
-        },
-        {
-            "id": 3,
-            "user": "johndoe123",
-            "title": "Meeting with Boss"
-        },
-        {
-            "id": 4,
-            "user": "testuser123",
-            "title": "Playing games"
-        }
-    ]
+  "users": [
+    {
+      "id": "johndoe123",
+      "password": "johndoe123"
+    },
+    {
+      "id": "djgupta",
+      "password": "djgupta"
+    }
+  ],
+  "todos": [
+    {
+      "title": "meeting",
+      "user": "johndoe123",
+      "id": 4
+    },
+    {
+      "title": "Eating",
+      "user": "johndoe123",
+      "id": 5
+    },
+    {
+      "title": "Fighting",
+      "user": "johndoe123",
+      "id": 6
+    },
+    {
+      "title": "Learning React",
+      "user": "djgupta",
+      "id": 7
+    }
+  ]
 }
