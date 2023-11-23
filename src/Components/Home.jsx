@@ -6,16 +6,16 @@ import { useUserContext } from "../Context/UserContext";
 import { Link } from "react-router-dom";
 
 function Home() {
-  const {user} = useUserContext()
+  const { user } = useUserContext()
   return (
-    <div style={{marginTop: '2em'}}>
+    <div style={{ marginTop: '2em' }}>
       {
         user ?
           <TodoContextProvider>
             <TodoForm />
             <TodoList />
           </TodoContextProvider>
-        : <> <h1>Please login</h1> <p> Click here to <Link to={'/login'}> Login </Link></p> </>
+          : <> <h1>Please login</h1> <p> Click here to <Link to={'/login'}> Login </Link></p> </>
       }
     </div>
   );
