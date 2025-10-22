@@ -3,7 +3,7 @@ name: React Todo CI
 on:
   push:
     branches:
-      - main  # change to 'master' if needed
+      - master  # change to 'master' if needed
 
 jobs:
   build:
